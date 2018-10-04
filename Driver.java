@@ -1,7 +1,7 @@
 public class Driver{
 	public static void main(String[] args){
 
-    BankAccount a = new BankAccount(1, 7000.00, "pwtest");
+    BankAccount a = new BankAccount(7000.00, 1, "pwtest");
 
 
   	System.out.println(a.toString());
@@ -24,7 +24,7 @@ public class Driver{
        }
 
 			// Testing for get.password()
-			BankAccount b = new BankAccount(2, -200.50, "pwtest2");
+			BankAccount b = new BankAccount(-200.50, 2, "pwtest2");
 
 			b.setPassword("newPassword");
 			System.out.println(b.getPassword());
